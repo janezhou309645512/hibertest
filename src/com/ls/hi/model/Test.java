@@ -8,8 +8,9 @@ import com.ls.hi.entity.User;
 public class Test {
 	public static void main(String[] args) {
 		BaseHibernate bh=new BaseHibernate();
-		bh.add(new User(UUID.randomUUID().toString(),"zhou","it"));
+		//bh.add(new User(UUID.randomUUID().toString(),"zhou","it"));
 		//bh.select();
+		bh.add(new User(UUID.randomUUID().toString(),"jian","pmc"));
 		//bh.update();
 		
 		
