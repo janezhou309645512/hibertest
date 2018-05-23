@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="hibertest"
+  id="myeclipse.1526633004456"
+  context-root="/hibertest"
+  j2ee-spec="5.0"
+  archive="hibertest.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

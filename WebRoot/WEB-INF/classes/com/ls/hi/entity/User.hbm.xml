@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.ls.hi.entity.User" table="dbo.Ls_Mms_User" >
+        <id name="id" column="id" type="java.lang.String">
+            <!-- 主键的生成策略 -->
+            <generator class="assigned"/>
+        </id>
+        <property name="name" type="java.lang.String" column="name"/>
+        <property name="department" type="java.lang.String" column="department"/>
+         
+      
+    </class>
+</hibernate-mapping>
+<!-- 
+    class ==== 表
+    对象    =====一行数据
+    属性     ===== 列
+    属性的类型    ==== 列的类型
+
+ -->
